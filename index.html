@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kishalaya Sarangi — Resume</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">KS<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn-resume" onclick="window.print()">📄 Print Resume</button>
+    <div class="hamburger" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <div class="hero-tag">Available for Internships 2026</div>
+      <h1>Kishalaya <span>Sarangi</span></h1>
+      <div class="typewriter">
+        <span id="typeText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-bio">
+        B.Tech Mechanical Engineering student at NIT Rourkela (Batch 2025–2029)
+        with a passion for software development. Currently on a
+        <strong>120-day coding challenge</strong> — building and shipping one
+        project every single day.
+      </p>
+      <div class="hero-highlights">
+        <div class="highlight">
+          <span>43+</span>
+          <label>Projects Built</label>
+        </div>
+        <div class="highlight">
+          <span>43</span>
+          <label>Day Streak</label>
+        </div>
+        <div class="highlight">
+          <span>6</span>
+          <label>Languages</label>
+        </div>
+        <div class="highlight">
+          <span>9.0+</span>
+          <label>Target CGPA</label>
+        </div>
+      </div>
+      <div class="hero-btns">
+        <a href="https://github.com/kishalayasarangi"
+           target="_blank" class="btn-primary">
+          View GitHub →
+        </a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-card">
+        <div class="avatar-circle">KS</div>
+        <div class="avatar-info">
+          <div class="avatar-name">Kishalaya Sarangi</div>
+          <div class="avatar-role">Developer & Engineer</div>
+          <div class="avatar-location">📍 Rourkela, Odisha</div>
+          <div class="avatar-status">
+            <span class="status-dot"></span>
+            Open to opportunities
+          </div>
+        </div>
+        <div class="avatar-links">
+          <a href="https://github.com/kishalayasarangi" target="_blank">GitHub</a>
+          <a href="mailto:sarangikishalaya70@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item animate">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-title">B.Tech — Mechanical Engineering</div>
+                <div class="tl-org">National Institute of Technology Rourkela</div>
+              </div>
+              <div class="tl-date">2025 – 2029</div>
+            </div>
+            <div class="tl-body">
+              <p>One of India's premier NIT institutions. Currently in 1st year with a focus on both core Mechanical Engineering and software development skills.</p>
+              <div class="tl-tags">
+                <span>Thermodynamics</span>
+                <span>Fluid Mechanics</span>
+                <span>Engineering Maths</span>
+                <span>Manufacturing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item animate">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <div class="tl-title">Class XII — PCM + Computer Science</div>
+                <div class="tl-org">Your School Name Here</div>
+              </div>
+              <div class="tl-date">2025</div>
+            </div>
+            <div class="tl-body">
+              <p>Completed higher secondary education with Physics, Chemistry, Mathematics and Computer Science.</p>
+              <div class="tl-tags">
+                <span>PCM</span>
+                <span>Computer Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section alt" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group animate">
+          <h3>Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-label">
+                <span>Python</span><span>85%</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="width:85%;background:#7c3aed;"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-label">
+                <span>JavaScript</span><span>80%</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="width:80%;background:#f59e0b;"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-label">
+                <span>C++</span><span>70%</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="width:70%;background:#3b82f6;"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-label">
+                <span>HTML/CSS</span><span>90%</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="width:90%;background:#10b981;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group animate">
+          <h3>Technologies</h3>
+          <div class="skill-tags">
+            <span>Flask</span>
+            <span>SQLite</span>
+            <span>REST APIs</span>
+            <span>Git & GitHub</span>
+            <span>BeautifulSoup</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+            <span>Chart.js</span>
+            <span>Node.js</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+
+        <div class="skill-group animate">
+          <h3>Concepts</h3>
+          <div class="skill-tags">
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+            <span>OOP</span>
+            <span>REST API Design</span>
+            <span>Web Scraping</span>
+            <span>Database Design</span>
+            <span>Responsive Design</span>
+            <span>CLI Development</span>
+          </div>
+        </div>
+
+        <div class="skill-group animate">
+          <h3>Mechanical</h3>
+          <div class="skill-tags">
+            <span>Stress Analysis</span>
+            <span>Thermodynamics</span>
+            <span>Fluid Mechanics</span>
+            <span>CAD Basics</span>
+            <span>Manufacturing</span>
+            <span>Engineering Maths</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub">
+        43+ projects built during the 120 Days of Code challenge
+      </p>
+      <div class="projects-grid">
+
+        <div class="project-card animate">
+          <div class="project-header">
+            <div class="project-icon">⚙️</div>
+            <div class="project-links">
+              <a href="https://github.com/kishalayasarangi/day-42-mech-calculator"
+                 target="_blank">GitHub →</a>
+            </div>
+          </div>
+          <h3>Mechanical Engineering Calculator</h3>
+          <p>Web calculator for stress, strain, torque, beam deflection and thermal calculations. Built as a Mechanical + CS crossover project.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card animate">
+          <div class="project-header">
+            <div class="project-icon">📊</div>
+            <div class="project-links">
+              <a href="https://github.com/kishalayasarangi/day-21-sorting-visualizer"
+                 target="_blank">GitHub →</a>
+            </div>
+          </div>
+          <h3>Sorting Algorithm Visualizer</h3>
+          <p>Animates Bubble, Merge, Selection and Insertion Sort with real-time comparisons, swap counter and speed control.</p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>DSA</span><span>Animation</span>
+          </div>
+        </div>
+
+        <div class="project-card animate">
+          <div class="project-header">
+            <div class="project-icon">🌐</div>
+            <div class="project-links">
+              <a href="https://github.com/kishalayasarangi/day-36-flask-todo-app"
+                 target="_blank">GitHub →</a>
+            </div>
+          </div>
+          <h3>Full Stack Flask Todo App</h3>
+          <p>REST API backend with Python Flask, SQLite database, priority levels, due dates and a clean frontend.</p>
+          <div class="project-tags">
+            <span>Flask</span><span>SQLite</span><span>REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card animate">
+          <div class="project-header">
+            <div class="project-icon">🔐</div>
+            <div class="project-links">
+              <a href="https://github.com/kishalayasarangi/day-34-password-manager"
+                 target="_blank">GitHub →</a>
+            </div>
+          </div>
+          <h3>Encrypted Password Manager</h3>
+          <p>CLI password manager with Fernet AES encryption, master password hashing and password strength checker.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Cryptography</span><span>CLI</span>
+          </div>
+        </div>
+
+        <div class="project-card animate">
+          <div class="project-header">
+            <div class="project-icon">📈</div>
+            <div class="project-links">
+              <a href="https://github.com/kishalayasarangi/day-28-api-explorer"
+                 target="_blank">GitHub →</a>
+            </div>
+          </div>
+          <h3>Public API Explorer</h3>
+          <p>Dashboard fetching live data from 6 public APIs — NASA, CoinGecko, jokes, country info and more.</p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>REST APIs</span><span>Async</span>
+          </div>
+        </div>
+
+        <div class="project-card animate">
+          <div class="project-header">
+            <div class="project-icon">🕷️</div>
+            <div class="project-links">
+              <a href="https://github.com/kishalayasarangi/day-27-web-scraper"
+                 target="_blank">GitHub →</a>
+            </div>
+          </div>
+          <h3>Web Scraper with Data Export</h3>
+          <p>Scrapes quotes.toscrape.com across 5 pages, exports to CSV and JSON with author and tag statistics.</p>
+          <div class="project-tags">
+            <span>Python</span><span>BeautifulSoup</span><span>CSV</span>
+          </div>
+        </div>
+
+      </div>
+      <div style="text-align:center;margin-top:24px;">
+        <a href="https://github.com/kishalayasarangi" target="_blank"
+           class="btn-primary">View All 43+ Projects on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section alt" id="achievements">
+    <div class="section-inner">
+      <h2 class="section-title">Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card animate">
+          <div class="ach-icon">🏆</div>
+          <h3>120 Days of Code</h3>
+          <p>Committed to building and shipping one project to GitHub every single day for 120 consecutive days.</p>
+        </div>
+        <div class="achievement-card animate">
+          <div class="ach-icon">🎓</div>
+          <h3>NIT Rourkela</h3>
+          <p>Secured admission to one of India's top National Institutes of Technology through JEE Advanced.</p>
+        </div>
+        <div class="achievement-card animate">
+          <div class="ach-icon">⚙️</div>
+          <h3>Mech + Tech Combo</h3>
+          <p>Rare combination of Mechanical Engineering domain knowledge with software development skills.</p>
+        </div>
+        <div class="achievement-card animate">
+          <div class="ach-icon">🔗</div>
+          <h3>Full Stack Projects</h3>
+          <p>Built multiple full stack applications with Flask, SQLite and REST APIs from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">
+        Open to internships, collaborations and tech conversations
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:sarangikishalaya70@gmail.com" class="contact-card animate">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">sarangikishalaya70@gmail.com</div>
+        </a>
+        <a href="https://github.com/kishalayasarangi"
+           target="_blank" class="contact-card animate">
+          <div class="contact-icon">⌨️</div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-value">kishalayasarangi</div>
+        </a>
+        <div class="contact-card animate">
+          <div class="contact-icon">📍</div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Rourkela, Odisha, India</div>
+        </div>
+        <div class="contact-card animate">
+          <div class="contact-icon">🎓</div>
+          <div class="contact-label">College</div>
+          <div class="contact-value">NIT Rourkela · 2025–2029</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built with HTML & CSS · Day 43 of 120 · Kishalaya Sarangi · NIT Rourkela</p>
+    <p style="margin-top:6px;color:#404050;">
+      43 days down. 77 to go. 🚀
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
